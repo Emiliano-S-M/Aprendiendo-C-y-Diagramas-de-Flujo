@@ -19,6 +19,5 @@ void main(void){
     común dejar la consola abierta de esta manera, ya que puede resultar
     molesto para los usuarios.
     */
-    return 0;
 }
 

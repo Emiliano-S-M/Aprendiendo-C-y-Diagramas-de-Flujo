@@ -40,6 +40,11 @@ Y para que sea fácil de entender, veremos todo desde los conceptos más básico
     - [Operadores Relacionales](#operadores-relacionales)
     - [Operadores Logicos y el Operador Coma](#operadores-logicos-y-el-operador-coma)
     - [Prioridad de los operadores](#prioridad-de-los-operadores)
+- [Programas y Diagramas de Flujo para entender el lenguaje C](#programas-y-diagramas-de-flujo-para-entender-el-lenguaje-c)
+  - [Mi primer 'Hola mundo'](holaMundo/holaMundo.md)
+  - [Caracteres de Control](caracteresDeControl/caracteresDeControl.md)
+  - [Formato de Variables](formatoDeVariables/formatoDeVariables.md)
+  - [Lectura de datos](lecturaDeDatos/lecturaDeDatos.md)
 
 
 ## Diagramas de Flujo
@@ -318,6 +323,11 @@ Como mencionamos anteriormente en este texto, **las expresiones se evaluan de iz
 
 Una vez aclarados los conceptos basicos y escenciales para cualquier lenguaje de programacion, pasemos a la practica para comenzar a aprender a programar en C.
 
-## Programas y Diagramas de Flujo
+## Programas y Diagramas de Flujo para entender el lenguaje C
 
--   [Mi primer 'Hola mundo'](holaMundo/holaMundo.md)
+- [Mi primer 'Hola mundo'](holaMundo/holaMundo.md)
+- [Caracteres de Control](caracteresDeControl/caracteresDeControl.md)
+- [Formato de Variables](formatoDeVariables/formatoDeVariables.md)
+- [Lectura de datos 1](lecturaDeDatos/lecturaDeDatos.md)
+- [Lectura de datos 2](lecturaDeDatos2/lecturaDeDatos2.md)
+- [Procesamiento de datos](procesamientoDeDatos/procesamientoDeDatos.md)
