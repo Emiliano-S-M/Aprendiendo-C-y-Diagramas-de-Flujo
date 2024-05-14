@@ -41,10 +41,18 @@ Y para que sea fácil de entender, veremos todo desde los conceptos más básico
     - [Operadores Logicos y el Operador Coma](#operadores-logicos-y-el-operador-coma)
     - [Prioridad de los operadores](#prioridad-de-los-operadores)
 - [Programas y Diagramas de Flujo para entender el lenguaje C](#programas-y-diagramas-de-flujo-para-entender-el-lenguaje-c)
-  - [Mi primer 'Hola mundo'](holaMundo/holaMundo.md)
-  - [Caracteres de Control](caracteresDeControl/caracteresDeControl.md)
-  - [Formato de Variables](formatoDeVariables/formatoDeVariables.md)
-  - [Lectura de datos](lecturaDeDatos/lecturaDeDatos.md)
+  - [Introduccion a los fundamentos de C](#introduccion-a-los-fundamentos-de-c)
+    - [Mi primer 'Hola mundo'](holaMundo/holaMundo.md)
+    - [Caracteres de Control](caracteresDeControl/caracteresDeControl.md)
+    - [Formato de Variables](formatoDeVariables/formatoDeVariables.md)
+    - [Lectura de datos 1](lecturaDeDatos/lecturaDeDatos.md)
+    - [Lectura de datos 2](lecturaDeDatos2/lecturaDeDatos2.md)
+    - [Procesamiento de datos](procesamientoDeDatos/procesamientoDeDatos.md)
+    - [Lbreria Math.h](libreriaMath/libreriaMath.md)
+  - [Estructuras selectivas en C](#estructuras-selectivas-en-c)
+    - [Condicional **`if`**](if/if.md)
+    - [Condicional doble **`if` `else`**](if-else/if-else.md)
+    - [Condicional multiple **`switch`**](switch/switch.md)
 
 
 ## Diagramas de Flujo
@@ -325,9 +333,16 @@ Una vez aclarados los conceptos basicos y escenciales para cualquier lenguaje de
 
 ## Programas y Diagramas de Flujo para entender el lenguaje C
 
+#### Introduccion a los fundamentos de C
 - [Mi primer 'Hola mundo'](holaMundo/holaMundo.md)
 - [Caracteres de Control](caracteresDeControl/caracteresDeControl.md)
 - [Formato de Variables](formatoDeVariables/formatoDeVariables.md)
 - [Lectura de datos 1](lecturaDeDatos/lecturaDeDatos.md)
 - [Lectura de datos 2](lecturaDeDatos2/lecturaDeDatos2.md)
 - [Procesamiento de datos](procesamientoDeDatos/procesamientoDeDatos.md)
+- [Lbreria Math.h](libreriaMath/libreriaMath.md)
+
+#### Estructuras selectivas en C
+- [Condicional **if**](if/if.md)
+- [Condicional doble **if-else**](if-else/if-else.md)
+- [Condicional multiple **switch**](switch/switch.md)
