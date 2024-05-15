@@ -350,4 +350,5 @@ Una vez aclarados los conceptos basicos y escenciales para cualquier lenguaje de
 
 ## Programas y Ejercicios.
 
-- [Promedio de 6 salarios](ñProgramas/Promedio6Salarios/main.md)
+- [Promedio de 6 salarios](Programas/Promedio6Salarios/main.md)
+- [Area de un triangulo (1)](Programas/areaTriangulo/main.md)
