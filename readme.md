@@ -346,3 +346,8 @@ Una vez aclarados los conceptos basicos y escenciales para cualquier lenguaje de
 - [Condicional **if**](if/if.md)
 - [Condicional doble **if-else**](if-else/if-else.md)
 - [Condicional multiple **switch**](switch/switch.md)
+
+
+## Programas y Ejercicios.
+
+- [Promedio de 6 salarios](ñProgramas/Promedio6Salarios/main.md)
