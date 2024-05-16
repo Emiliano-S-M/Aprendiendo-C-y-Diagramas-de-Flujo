@@ -40,6 +40,17 @@ Y para que sea fácil de entender, veremos todo desde los conceptos más básico
     - [Operadores Relacionales](#operadores-relacionales)
     - [Operadores Logicos y el Operador Coma](#operadores-logicos-y-el-operador-coma)
     - [Prioridad de los operadores](#prioridad-de-los-operadores)
+
+- [Funciones](#funciones)
+  - [Variables Locales, Globales y Estaticas](#variables-locales-globales-y-estaticas)
+    - [Variables Locales](#variables-locales)
+    - [Variables Globales](#variables-globales)
+    - [Variables Estaticas](#variables-estaticas)
+
+
+
+
+
 - [Programas y Diagramas de Flujo para entender el lenguaje C](#programas-y-diagramas-de-flujo-para-entender-el-lenguaje-c)
   - [Introduccion a los fundamentos de C](#introduccion-a-los-fundamentos-de-c)
     - [Mi primer 'Hola mundo'](holaMundo/holaMundo.md)
@@ -331,6 +342,101 @@ Como mencionamos anteriormente en este texto, **las expresiones se evaluan de iz
 
 Una vez aclarados los conceptos basicos y escenciales para cualquier lenguaje de programacion, pasemos a la practica para comenzar a aprender a programar en C.
 
+## Funciones
+
+El concepto de reducción de problemas es fundamental para abordar problemas complejos o de gran tamaño en la programación. Este enfoque descompone el problema en subproblemas más manejables, que a su vez pueden descomponerse en subsubproblemas, hasta que el problema original se reduce a un conjunto de actividades básicas. La solución de cada una de estas actividades básicas, aplicando razonamiento hacia atrás, permite resolver el problema final.
+
+En el contexto del lenguaje de programación C, la solución de un problema se expresa mediante un programa, mientras que la solución de un subproblema se logra mediante una función. El uso de funciones tiene numerosas ventajas, como facilitar la lectura y escritura de programas, permitir el trabajo en paralelo, asignar responsabilidades de manera eficiente, reutilizar código al escribir una función una vez y usarla múltiples veces, y facilitar el mantenimiento del programa.
+
+Por lo tanto, un programa en C está compuesto por un programa principal y un conjunto de funciones. El programa principal consta generalmente de pocas líneas y puede llamar a funciones. Cuando se llama a una función, el procesador continúa con el procesamiento de esa función y, una vez concluida, regresa al punto de partida en el programa principal. Las funciones se escriben de manera similar al programa principal, pero con diferencias principalmente en el encabezado. Una función resuelve un subproblema de forma independiente y se ejecuta solo cuando recibe una llamada desde el programa principal o desde otras funciones. Además, C permite que una función pueda incorporar llamadas a otras funciones.
+
+La comunicación entre las funciones y el programa principal, así como entre las propias funciones, se realiza mediante parámetros por valor, parámetros por referencia y variables globales. Aunque las variables globales son menos utilizadas por razones de eficiencia y seguridad en la escritura de programas.
+
+### Variables locales, globales y estaticas.
+
+Las variables en C pueden clasificarse en tres tipos principales: locales, globales y estáticas. Cada tipo tiene diferentes alcances y duraciones durante la ejecución del programa.
+
+#### Variables Locales
+
+- **Alcance:** Limitado al bloque en el que se declaran.
+- **Duración:** Existencia solo durante la ejecución de ese bloque.
+- **Inicialización:** No se inicializan automáticamente; su valor es indeterminado hasta que se les asigna explícitamente.
+- **Uso típico:** Se utilizan para almacenar valores temporales o intermedios dentro de una función.
+
+Ejemplo:
+
+```c
+#include <stdio.h>
+
+void miFuncion() {
+    int local = 10;
+    printf("Variable local: %d\n", local);
+}
+
+int main() {
+    miFuncion();
+    // printf("%d\n", local); // Error: 'local' no está definido en este ámbito
+    return 0;
+}
+```
+
+#### Variables Globales
+
+- **Alcance:** Disponible en todo el programa después de su declaración.
+- **Duración:** Existencia durante toda la ejecución del programa.
+- **Inicialización:** Si no se les asigna un valor, se inicializan automáticamente a 0.
+- **Uso típico:** Se utilizan para almacenar valores que necesitan ser accesibles desde múltiples funciones o partes del programa.
+
+Ejemplo:
+
+```c
+#include <stdio.h>
+
+int global = 20;
+
+void miFuncion() {
+    printf("Variable global: %d\n", global);
+}
+
+int main() {
+    miFuncion();
+    printf("Variable global: %d\n", global);
+    return 0;
+}
+```
+
+#### Variables Estaticas
+
+- **Alcance:** Pueden tener alcance local o global.
+- **Duración:** Su duración es durante toda la ejecución del programa.
+- **Inicialización:** Si no se inicializan explícitamente, se inicializan automáticamente a 0.
+- **Uso típico:** Se utilizan para almacenar valores que necesitan persistir entre diferentes llamadas a una función.
+
+Ejemplo:
+
+```c
+#include <stdio.h>
+
+void miFuncion() {
+    static int estatica = 30;
+    estatica++;
+    printf("Variable estática: %d\n", estatica);
+}
+
+int main() {
+    miFuncion(); // Imprime: Variable estática: 31
+    miFuncion(); // Imprime: Variable estática: 32
+    return 0;
+}
+```
+
+Para resumir: 
+- Las variables locales están limitadas al ámbito de una función. 
+- Las variables globales son accesibles desde cualquier parte del programa.
+- Las variables estáticas tienen una duración prolongada y conservan su valor entre diferentes llamadas a una función.
+
+<br>
+
 ## Programas y Diagramas de Flujo para entender el lenguaje C
 
 #### Introduccion a los fundamentos de C
@@ -347,6 +453,18 @@ Una vez aclarados los conceptos basicos y escenciales para cualquier lenguaje de
 - [Condicional doble **if-else**](if-else/if-else.md)
 - [Condicional multiple **switch**](switch/switch.md)
 
+### Estructuras algorítmicas repetitivas
+- [Estructura Algoritmica Repetitiva `for`](for/for.md)
+- [Estructura Algoritmica Repetitiva `while`](while/while.md)
+- [Estructura Algoritmica Repetitiva `do while`](do-while/do-while.md)
+
+### Funciones en C
+  - [Sintaxis Basica de una Funcion](funcionesBasicas/funcion.md)
+  - [Sintaxis Basica de una Funcion con Prototipo de la Funcion](funcionesBasicasConPrototipo/funcion.md)
+  - [Conflictos en nombres de las variables](conflictoVariables/conflicto.md)
+  - [Pase de parametros de una funcion por valor](parametrosValor/valor.md)
+
+-----
 
 ## Programas y Ejercicios.
 
