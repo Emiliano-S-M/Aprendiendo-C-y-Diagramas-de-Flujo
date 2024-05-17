@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-void funcion(int x) {
-    x = x * 2;
-    printf("Dentro de la funcion: %d\n", x);
+void funcion(int a) {
+    a = a * 2;
+    printf("Dentro de la funcion: %d\n", a);
 }
 
 void main(void) {

@@ -463,6 +463,7 @@ Para resumir:
   - [Sintaxis Basica de una Funcion con Prototipo de la Funcion](funcionesBasicasConPrototipo/funcion.md)
   - [Conflictos en nombres de las variables](conflictoVariables/conflicto.md)
   - [Pase de parametros de una funcion por valor](parametrosValor/valor.md)
+  - [Pase de parametros de una funcion por referencia](parametrosReferencia/referencia.md)
 
 -----
 

@@ -4,7 +4,7 @@ En C, los parámetros se pasan por valor de forma predeterminada. Esto significa
 
 por ejemplo:
 
-[![15-05-2024-0007.jpg](https://i.postimg.cc/SQ1bjL6z/15-05-2024-0007.jpg)](https://postimg.cc/hhm55d3S)
+[![15-05-2024-0007.jpg](https://i.postimg.cc/vB80f53C/15-05-2024-0007.jpg)](https://postimg.cc/d7XRKZM9)
 
 Notaras que "`a`" de la funcion principal, mantendra siempre su valor, mientras que dentro de la funcion, el valor de "`a`" si cambiara, pero no afecta al valor de la funcion principal.
 
