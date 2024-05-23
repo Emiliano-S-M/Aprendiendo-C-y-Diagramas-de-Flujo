@@ -552,6 +552,8 @@ La gestión de memoria es un aspecto crucial tanto para datos simples como estru
 - [Condicional **if**](if/if.md)
 - [Condicional doble **if-else**](if-else/if-else.md)
 - [Condicional multiple **switch**](switch/switch.md)
+  ##### Operadores Ternarios
+  - [Operadores Ternarios](operadoresTernarios/ternarios.md)
 
 ### Estructuras algorítmicas repetitivas
 - [Estructura Algoritmica Repetitiva `for`](for/for.md)
