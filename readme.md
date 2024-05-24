@@ -577,6 +577,8 @@ La gestión de memoria es un aspecto crucial tanto para datos simples como estru
 ### Caracteres y Cadenas de Caracteres
   - [Caracteres](caracteres/caracteres.md)
   - [ctype.h](ctype/ctype.md)
+  - [stdlib.h](stdlib/stdlib.md)
+  - [string.h](string/string.md)
 
 -----
 
