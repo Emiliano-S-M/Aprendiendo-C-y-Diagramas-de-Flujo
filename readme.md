@@ -534,6 +534,14 @@ La gestión de memoria es un aspecto crucial tanto para datos simples como estru
 
 - **Datos Estructurados**: Requieren una gestión más sofisticada, especialmente en lenguajes que permiten la asignación dinámica de memoria. Por ejemplo, las cadenas de caracteres en lenguajes como C deben ser manejadas con cuidado para evitar errores como desbordamientos de buffer y fugas de memoria.
 
+## Estructuras
+Las estructuras, conocidas generalmente con el nombre de registros, representan un tipo de datos estructurado. Se utilizan tanto para resolver problemas que involucran tipos de datos estructurados, heterogéneos, como para almacenar información en archivos. Las estructuras tienen varios componentes, cada uno de los cuales puede constituir a su vez un tipo de datos simple o estructurado. Sin embargo, los componentes del nivel más bajo de un tipo estructurado, siempre son tipos de datos simples. Formalmente definimos a una estructura de la siguiente manera:
+
+> “Una estructura es una colección de elementos finita y heterogénea.”
+
+Finita porque se puede determinar el número de componentes y heterogénea porque todos los elementos pueden ser de tipos de datos diferentes. Cada componente de la estructura se denomina campo y se identifica con un nombre único. Los campos de una estructura pueden ser de tipos de datos diferentes como ya hemos mencionado, simples o estructurados; por lo tanto, también podrían ser nuevamente una estructura. Para hacer referencia a un campo de una estructura siempre debemos utilizar tanto el nombre de la variable tipo estructura como el nombre del campo.
+
+[![24-05-2024-0002.jpg](https://i.postimg.cc/PqnmhBnj/24-05-2024-0002.jpg)](https://postimg.cc/75XCntLs)
 
 <br>
 
@@ -579,6 +587,15 @@ La gestión de memoria es un aspecto crucial tanto para datos simples como estru
   - [ctype.h](ctype/ctype.md)
   - [stdlib.h](stdlib/stdlib.md)
   - [string.h](string/string.md)
+
+### Estructuras
+- [Estructuras de datos](estructurasDeDatos/estructuras.md)
+- [Alias en Estructuras de datos](./estructurasDeDatosAlias/alias.md)
+- [Estructuras de datos Anidadas](./estructurasDeDatosAnidadas/estructuras.md)
+- [Estructuras de datos con Arreglos](./estructurasDeDatosArreglos/estructurasArreglos.md)
+- [Uniones](uniones/uniones.md)
+
+
 
 -----
 
