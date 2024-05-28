@@ -8,9 +8,9 @@ Cuando declaras un arreglo en C, el nombre del arreglo actúa como un puntero co
 int arr[5] = {1, 2, 3, 4, 5};
 ```
 
-Aqui, hemos declarado nuestro arreglo, donde `arr` es un puntero al primer elemento del arreglo `arr`. Esto significa que `arr` es equivalente a `&arr[0]`.
+Aquí, hemos declarado nuestro arreglo, donde `arr` es un puntero al primer elemento del arreglo `arr`. Esto significa que `arr` es equivalente a `&arr[0]`.
 
-Ademas, podemos acceder a un elemento especifico de un arreglo, usando apuntadores tal y como se muestra a continuacion.
+Además, podemos acceder a un elemento específico de un arreglo, usando apuntadores, tal y como se muestra a continuación.
 
 ```c
 int arr[5] = {1, 2, 3, 4, 5};
@@ -32,7 +32,7 @@ De igual forma, podemos **iterar sobre un arreglo** usando apuntadores, ya que p
     }
 ```
 
-Otra caracteristica, es que podemos modificar los elementos de un arreglo usando apuntadores, tal y como se muestra a continuacion
+Otra característica es que podemos modificar los elementos de un arreglo usando apuntadores, tal y como se muestra a continuación:
 
 ```c
     int arr[5] = {1, 2, 3, 4, 5};
@@ -48,7 +48,7 @@ Otra caracteristica, es que podemos modificar los elementos de un arreglo usando
 ```
 
 
-En este codigo de ejemplo, puedes notar como al llamar a el apuntador `*ptr` que contiene la direccion de memoria del array, y que ademas, conocemos vale `0` y sumarle 2, esta apuntando a la casilla numero 3 del arreglo, esto recordando lo visto en el apartado anterior sobre [como crear un arreglo](../arreglosUnidimensionales/arreglos.md#arreglos-unidimensionales), y al iterar sobre el array muestra el nuevo valor.
+En este código de ejemplo, puedes notar cómo al llamar al apuntador `*ptr` que contiene la dirección de memoria del array, y que, además, conocemos vale `0` y sumarle 2, está apuntando a la casilla número 3 del arreglo, esto recordando lo visto en el apartado anterior sobre [como crear un arreglo](../arreglosUnidimensionales/arreglos.md#arreglos-unidimensionales), y al iterar sobre el array muestra el nuevo valor.
 
 Un ejemplo que abarca todo lo anterior esta presente en el siguiente diagrama de Flujo.
 

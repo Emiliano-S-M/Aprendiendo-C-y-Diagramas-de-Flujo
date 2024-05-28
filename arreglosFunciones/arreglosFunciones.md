@@ -1,6 +1,6 @@
 # Paso de Arreglos a Funciones usando Apuntadores
 
- Esta técnica es esencial para manejar arreglos de manera eficiente, especialmente cuando se trata de modificar el contenido del arreglo dentro de una función.
+ Esta técnica es esencial para manejar arreglos de manera eficiente, especialmente cuando se trata de modificar el contenido del arreglo dentro de una función.
 
 Cuando pasas un arreglo a una función, realmente estás pasando un puntero al primer elemento del arreglo. Esto significa que cualquier modificación que hagas a los elementos del arreglo dentro de la función afectará el arreglo original.
 
@@ -15,13 +15,13 @@ En esta declaración:
 - `int *ptr` es un puntero a un entero, que apuntará al primer elemento del arreglo.
 - `int size` es el tamaño del arreglo, para que la función sepa cuántos elementos debe procesar.
 
-La implementacion de la funcion podemos hacerla de tal forma que imprima todos los elementos del arreglo:
+La implementación de la función podemos hacerla de tal forma que imprima todos los elementos del arreglo:
 
 ```c
 void imprimirArreglo(int *ptr, int size) {
-    for (int i = 0; i < size; i++) {
-        printf("Elemento en ptr[%d] = %d\n", i, *(ptr + i));
-    }
+    for (int i = 0; i < size; i++) {
+        printf("Elemento en ptr[%d] = %d\n", i, *(ptr + i));
+    }
 }
 ```
 
@@ -34,10 +34,10 @@ Ahora vamos a ver cómo se llama a esta función desde main pasando un arreglo:
 
 ```c
 void main(void) {
-    int arr[5] = {1, 2, 3, 4, 5};
-    imprimirArreglo(arr, 5); // Pasar el arreglo a la función
+    int arr[5] = {1, 2, 3, 4, 5};
+    imprimirArreglo(arr, 5); // Pasar el arreglo a la función
 
-    getchar();
+    getchar();
 }
 ```
 
@@ -50,17 +50,17 @@ Puedes modificar el contenido del arreglo dentro de la función de la siguiente 
 
 ```c
 void doblarElementos(int *ptr, int size) {
-    for (int i = 0; i < size; i++) {
-        *(ptr + i) *= 2; // Doble el valor de cada elemento
-    }
+    for (int i = 0; i < size; i++) {
+        *(ptr + i) *= 2; // Doble el valor de cada elemento
+    }
 }
 ```
 
-Recuerda que esto modificara el contenido original del arreglo, por lo que el arreglo Original, tomara los nuevos valores del arreglo durante la ejecucion de la funcion doblarElementos, esto ya que estamos pasando la direccion de memoria en el arreglo, es decir, estamos haciendo un pase de parametros por referencia.
+Recuerda que esto modificara el contenido original del arreglo, por lo que el arreglo Original, tomara los nuevos valores del arreglo durante la ejecución de la función doblarElementos, esto ya que estamos pasando la dirección de memoria en el arreglo, es decir, estamos haciendo un pase de parámetros por referencia.
 
 Veamos un ejemplo:
 
 [![18-05-2024-0007.jpg](https://i.postimg.cc/3whbnN8V/18-05-2024-0007.jpg)](https://postimg.cc/dhWB0qTj)
 
 
-[Codigo --> aqui](arreglosFunciones.c)
+[Código --> aquí.](arreglosFunciones.c)

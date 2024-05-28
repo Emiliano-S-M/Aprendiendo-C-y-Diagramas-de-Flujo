@@ -18,4 +18,4 @@ Un carácter de control en C es un carácter especial que no se imprime como sí
 
 Estos caracteres de control son útiles para formatear la salida en la pantalla, como agregar espacios en blanco, saltos de línea o tabulaciones, o para controlar el comportamiento de los dispositivos de entrada y salida.
 
-Puedes ver como es que funcionan algunos de estos caracteres de control [aqui](caracteresDeControl.c)
+Puedes ver como es que funcionan algunos de estos caracteres de control [aquí](caracteresDeControl.c)
