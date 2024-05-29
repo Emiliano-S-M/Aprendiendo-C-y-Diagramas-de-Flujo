@@ -1,4 +1,4 @@
-# Sintaxis de una Funcion con Prototipo de la Funcion
+# Sintaxis de una función con prototipo de la función.
 
 El prototipo de una función es una declaración que proporciona información al compilador sobre la firma de la función antes de que se defina. Esto incluye el tipo de retorno de la función, su nombre y los tipos de datos de los parámetros que espera.
 
@@ -14,32 +14,32 @@ Para el ejemplo visto anteriormente:
 
 [![15-05-2024-0004.jpg](https://i.postimg.cc/LsqtVTcZ/15-05-2024-0004.jpg)](https://postimg.cc/p9H5WDX2)
 
-El prototipo de la funcion se veria algo asi
+El prototipo de la función se vería algo así.
 
 ```c
 int suma(int a, int b);
 ```
 
-Posteriormente tenemos nuestro codigo principal `main()`
+Posteriormente, tenemos nuestro código principal `main()`
 
 ```c
 void main(void) {
-    /*Otro codigo aqui...*/
-    suma(x,y); 
-    /* 
-    Llamada a la funcion y se le pasa como 
-    parametros los valores de "x" y de "y"
-    */
+    /*Otro codigo aqui...*/
+    suma(x,y); 
+    /* 
+    Llamada a la funcion y se le pasa como 
+    parametros los valores de "x" y de "y"
+    */
 }
 ```
 
-Despues del bloque main es donde definimos nuestra funcion.
+Después del bloque main es donde definimos nuestra función.
 
 ```c
 int suma(int a, int b) {
-    int resultado = a + b;
-    return resultado;
+    int resultado = a + b;
+    return resultado;
 }
 ```
 
-[Coodigo --> aqui](funcion.c)
+[Código --> aquí.](funcion.c)

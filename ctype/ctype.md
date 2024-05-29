@@ -1,8 +1,8 @@
-# Libreria `ctype.h`
+# Librería `ctype.h`
 
 Jugar con los caracteres dentro de un programa es una práctica de lo más habitual, a veces podemos necesitar mostrar mayúsculas, minúsculas o pasar de una a otra o realizar operaciones simples con caracteres.
 
-Para eso existe la librería ctype.h. Ésta librería se encarga de todo lo relacionado a modificar y operar con caracteres, sin duda alguna muy útil a la hora de representar en pantalla y comprobar información.
+Para eso existe la librería ctype.h. Esta librería se encarga de todo lo relacionado a modificar y operar con caracteres, sin duda alguna muy útil a la hora de representar en pantalla y comprobar información.
 
 La especificación de la librería es la siguiente:
 

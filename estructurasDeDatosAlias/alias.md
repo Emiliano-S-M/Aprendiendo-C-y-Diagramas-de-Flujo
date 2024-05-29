@@ -1,4 +1,4 @@
-# Sinonimos o Alias en C
+# Sinónimos o alias en C.
 
 En el lenguaje de programación C, la instrucción typedef se utiliza para crear alias o sinónimos para tipos de datos existentes. Esto es especialmente útil para hacer que el código sea más legible y manejable, especialmente cuando se trata de tipos de datos complejos como estructuras. A continuación, se presenta una explicación más detallada de cómo y por qué usar typedef, especialmente con estructuras.
 
@@ -22,9 +22,9 @@ El uso de `typedef` se vuelve particularmente útil cuando se trabaja con estruc
 
 ```c
 typedef struct {
-    tipo1 campo1;
-    tipo2 campo2;
-    // otros campos
+    tipo1 campo1;
+    tipo2 campo2;
+    // otros campos
 } NuevoNombre;
 ```
 
@@ -34,8 +34,8 @@ Sin usar typedef, declarar y usar una estructura en C sería algo así:
 
 ```c
 struct Persona {
-    char nombre[50];
-    int edad;
+    char nombre[50];
+    int edad;
 };
 
 struct Persona persona1;
@@ -49,8 +49,8 @@ Con typedef, se puede simplificar este proceso:
 
 ```c
 typedef struct {
-    char nombre[50];
-    int edad;
+    char nombre[50];
+    int edad;
 } Persona;
 
 Persona persona1;
@@ -65,5 +65,5 @@ En este caso, Persona es un alias para struct { char nombre[50]; int edad; }, y 
 
 <br>
 
-[Codigo --> aqui(Sin alias)](sinAlias.c)<br>
-[Codigo --> aqui(Con alias)](alias.c)
+[Código --> aquí (sin alias)](sinAlias.c)<br>
+[Código --> aquí (con alias)](alias.c)

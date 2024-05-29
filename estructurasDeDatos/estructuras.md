@@ -11,7 +11,7 @@ Las estructuras de datos en C ofrecen diversas ventajas:
 
 - **Flexibilidad**: Permiten crear estructuras personalizadas que se adaptan a las necesidades específicas del programador.
 
-- **Modularidad**: Promueven la modularidad del código, ya que se pueden crear estructuras que encapsulan datos y funciones relacionadas.
+- **Modularidad**: Promueven la modularidad del código, porque se pueden crear estructuras que encapsulan datos y funciones relacionadas.
 
 - **Uso en diversas aplicaciones**: Las estructuras de datos en C tienen un amplio campo de aplicación, desde el almacenamiento de información simple hasta la implementación de estructuras de datos complejas como listas, pilas, árboles y grafos.
 
@@ -21,8 +21,8 @@ Ejemplo de declaración de una estructura Punto:
 
 ```c
 struct Punto {
-  int x;
-  int y;
+  int x;
+  int y;
 };
 ```
 En este ejemplo, la estructura Punto tiene dos miembros: `x` y `y`, ambos de tipo entero, que representan las coordenadas de un punto en el plano cartesiano.
@@ -33,4 +33,4 @@ Veamos un ejemplo:
 
 [![24-05-2024-0003.jpg](https://i.postimg.cc/05YxfNvv/24-05-2024-0003.jpg)](https://postimg.cc/23SPjr39)
 
-[Codigo --> aqui](estructuras.c)
+[Código --> aquí](estructuras.c)

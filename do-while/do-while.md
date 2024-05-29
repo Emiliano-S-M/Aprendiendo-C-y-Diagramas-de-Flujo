@@ -1,4 +1,4 @@
-# Estructura Algoritmica Repetitiva `do while`
+# Estructura Algorítmica Repetitiva `do while`
 
 La estructura algorítmica repetitiva `do`-`while` **es similar a la estructura `while`**, pero garantiza que el bloque de código se ejecute al menos una vez, incluso si la condición especificada es falsa desde el principio. Después de ejecutar el bloque de código, se verifica la condición y, si es verdadera, el bloque se ejecuta nuevamente.
 
@@ -6,7 +6,7 @@ La sintaxis básica del bucle `do`-`while` es la siguiente:
 
 ```c
 do {
-    // Bloque de código a ejecutar al menos una vez
+    // Bloque de código a ejecutar al menos una vez
 } while (condición);
 ```
 
@@ -19,4 +19,4 @@ Escribe un diagrama de flujo y el correspondiente programa en C que, al recibir 
 [![15-05-2024-0003.jpg](https://i.postimg.cc/DzQkjrkB/15-05-2024-0003.jpg)](https://postimg.cc/VSNV5bNC)
 
 
-[Codigo --> aqui](do-while.c)
+[Código --> aquí](do-while.c)

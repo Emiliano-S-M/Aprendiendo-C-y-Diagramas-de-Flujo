@@ -1,4 +1,4 @@
-# Estructura algoritmica Repetitiva `for`
+# Estructura algorítmica repetitiva `for`
 
 
 
@@ -8,7 +8,7 @@ La sintaxis general del bucle `for` en C es la siguiente:
 
 ```c
 for (inicialización; condición; actualización) {
-    // Bloque de código a ejecutar repetidamente
+    // Bloque de código a ejecutar repetidamente
 }
 ```
 
@@ -16,12 +16,12 @@ for (inicialización; condición; actualización) {
 
 - **condición:** Se evalúa antes de cada iteración del bucle. Si es verdadera, el bloque de código se ejecuta; de lo contrario, el bucle termina.
 
-- **actualización:** Se ejecuta después de cada iteración del bucle. Generalmente se utiliza para actualizar la variable de control.
+- **actualización:** Se ejecuta después de cada iteración del bucle. Generalmente, se utiliza para actualizar la variable de control.
 
-Por ejemplo para el siguiente programa:
+Por ejemplo, para el siguiente programa:
 
 Construye un diagrama de flujo y el programa correspondiente en C que, al recibir como datos los salarios de 15 profesores de una universidad, obtenga el total de la nómina.
 
 [![for.jpg](https://i.postimg.cc/SxD2ywwC/for.jpg)](https://postimg.cc/5XQNgk92)
 
-[Codigo --> aqui](for.c)
+[Código --> aquí.](for.c)

@@ -1,11 +1,11 @@
-# Sintaxis de una Funcion
+# Sintaxis de una función.
 
 
 La sintaxis básica de una función en C es la siguiente:
 
 ```c
 tipo_de_retorno nombre_de_la_funcion(parametros) {
-    // Cuerpo de la función
+    // Cuerpo de la función
 }
 ```
 
@@ -13,7 +13,7 @@ tipo_de_retorno nombre_de_la_funcion(parametros) {
 
 - **nombre_de_la_funcion:** Es el identificador único de la función que se utiliza para llamarla desde otras partes del programa.
 
-- **parametros:** Son los valores que se pueden pasar a la función para que la función pueda realizar su tarea. Los parámetros son opcionales y pueden ser de cualquier tipo de dato. Si la función no toma ningún argumento, los paréntesis estarán vacíos ().
+- **Parámetros:** Son los valores que se pueden pasar a la función para que la función pueda realizar su tarea. Los parámetros son opcionales y pueden ser de cualquier tipo de dato. Si la función no toma ningún argumento, los paréntesis estarán vacíos ().
 
 - **Cuerpo de la función:** Contiene las instrucciones que definen lo que hace la función. Estas instrucciones pueden incluir declaraciones de variables, operaciones matemáticas, llamadas a otras funciones, etc.
 
@@ -23,10 +23,10 @@ Por ejemplo, aquí hay una función llamada suma que toma dos enteros como argum
 
 Aquí, la función o subproceso de suma está representada en otro diagrama, y este se ejecuta al momento de asignar el valor devuelto por la función suma a Z, y posteriormente continuamos con el programa de forma normal.
 
-Como puedes notar, aqui empleamos dos nuevos simbolos.
+Como puedes notar, aquí empleamos dos nuevos símbolos.
 
 [![15-05-2024-0005.jpg](https://i.postimg.cc/vZZL4MXh/15-05-2024-0005.jpg)](https://postimg.cc/TpBWszz5)
 
 
 ---
-[Codigo --> aqui](funcion.c)
+[Código --> aquí](funcion.c)
