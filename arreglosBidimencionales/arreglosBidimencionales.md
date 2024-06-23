@@ -27,11 +27,11 @@ Al igual que en un arreglo unidimensional, podemos inicializar un arreglo direct
 
 ```c
 int miArreglo[5][4] = {
-    {1,2,3,4},
-    {5,6,7,8},
-    {9,10,11,12};
-    {13,14,15,16},
-    {17,18,19,20}
+    {1,2,3,4},
+    {5,6,7,8},
+    {9,10,11,12};
+    {13,14,15,16},
+    {17,18,19,20}
 }
 ```
 Por lo que nuestra matriz tendrá los siguientes elementos:
@@ -62,4 +62,4 @@ Cada vez que j llega a 3, sale del ciclo y se ejecuta nuevamente la comprobació
 
 Una vez que i alcanza un valor de 4, salimos del arreglo bidimensional, y ejecutamos el segundo arreglo, el cual corresponde a la impresión de los valores de `miArreglo`, la estructura lógica es similar, la diferencia es que únicamente imprimimos los valores de mi arreglo acorde a cada ciclo para i, y para j.
 
-[Código --> aqui](arreglosBidimencionales.c)
+[Código --> aquí](arreglosBidimencionales.c)

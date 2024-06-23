@@ -1,6 +1,6 @@
 # Uso de Punteros con Arreglos Bidimensionales
 
-Puedes utilizar punteros para trabajar con arreglos bidimensionales al igual que como lo hariamos con arreglos unidimencionales, aunque la sintaxis puede ser un poco más compleja.
+Puedes utilizar punteros para trabajar con arreglos bidimensionales, al igual que como lo haríamos con arreglos unidimensionales, aunque la sintaxis puede ser un poco más compleja.
 
 Por ejemplo:
 
@@ -11,19 +11,19 @@ int arr[3][4] = {
     {9, 10, 11, 12}
 };
 ```
-Aqui hemos declarado nuestro arreglo unidimencional.
+Aquí hemos declarado nuestro arreglo unidimensional.
 
 Ahora para declarar el puntero podemos hacerlo de la siguiente forma:
 
 ```c
 int (*p)[4] = arr;
 ```
-En este codigo, p es un puntero a un arreglo de 4 enteros. Esto significa que p sabe que cada "fila" del arreglo bidimensional tiene 4 enteros. Por lo tanto, cuando accedes a `p[i]`, el compilador entiende que debe moverse 4 enteros a la vez.
+En este código, p es un puntero a un arreglo de 4 enteros. Esto significa que p sabe que cada "fila" del arreglo bidimensional tiene 4 enteros. Por lo tanto, cuando accedes a `p[i]`, el compilador entiende que debe moverse 4 enteros a la vez.
 
 
-La declaración del puntero a un arreglo en C es muy específica en cuanto al tamaño del arreglo al que apunta. Cuando declaras un puntero a un arreglo de un tamaño específico, el compilador necesita saber exactamente cuántos elementos hay en cada subarreglo para realizar correctamente la aritmética de punteros. Lo que no es estrictamente necesario declarar es la cantidad de filas, solo la cantidad de columnas.
+La declaración del puntero a un arreglo en C es muy específica en cuanto al tamaño del arreglo al que apunta. Cuando declaras un puntero a un arreglo de un tamaño específico, el compilador necesita saber exactamente cuántos elementos hay en cada sub arreglo para realizar correctamente la aritmética de punteros. Lo que no es estrictamente necesario declarar es la cantidad de filas, solo la cantidad de columnas.
 
-Por ejemplo, esta seria una declaracion equivocada:
+Por ejemplo, esta sería una declaración equivocada:
 
 ```c
 int (*p)[6] = arr;
@@ -34,7 +34,7 @@ Es crucial que el tamaño del arreglo en la declaración del puntero coincida co
 
 Usar un tamaño incorrecto en la declaración del puntero llevará a accesos de memoria incorrectos y posiblemente a errores en tiempo de ejecución o comportamiento indefinido.
 
-Tomando en cuenta la declaracion de nuestro apuntador:
+Tomando en cuenta la declaración de nuestro apuntador:
 
 ```c
 int (*p)[4] = arr;
@@ -52,17 +52,17 @@ O bien acceder al segundo elemento de la segunda fila:
 int secondElement = p[1][1]; // Es equivalente a arr[1][1]
 ```
 
-De igual forma, tal y como en los arreglos unidimencionales, podemos modificar la informacion del arreglo mediante los punteros:
+De igual forma, tal y como en los arreglos unidimensionales, podemos modificar la información del arreglo mediante los punteros:
 
 ```c
 p[1][2] = 42; // Modifica el elemento en la segunda fila y tercera columna a 42
 ```
 
-Recuerda que al modificar la informacion de un arreglo mediante punteros, este mismo modifica la informacion del arreglo original, es decir, los cambios se hacen directamente en la direccion de memoria del Arreglo.
+Recuerda que al modificar la información de un arreglo mediante punteros, este mismo modifica la información del arreglo original, es decir, los cambios se hacen directamente en la dirección de memoria del arreglo.
 
 ## Acceso y Modificación Usando Punteros a Enteros
 
-Tambien tenemos el metodo de **Acceso y Modificación Usando Punteros a Enteros**
+También tenemos el método de **Acceso y Modificación Usando Punteros a Enteros.**
 
 Puedes usar un puntero a entero para acceder y modificar el arreglo bidimensional. Primero, declaramos un puntero a entero que apunte al primer elemento del arreglo:
 
@@ -76,7 +76,7 @@ Podemos acceder a un elemento específico usando aritmética de punteros:
 int value = *(p + 1 * 4 + 2); // Accede al elemento en la segunda fila y tercera columna (valor 7)
 ```
 
-De igual forma, podemos modificar el valor de un elemento especifico usando aritmética de punteros:
+De igual forma, podemos modificar el valor de un elemento específico usando aritmética de punteros:
 
 ```c
 *(p + 1 * 4 + 2) = 42; // Modifica el elemento en la segunda fila y tercera columna a 42
@@ -105,27 +105,27 @@ Entonces, en resumen:
 
 `*(p + 2 * 4 + 3)`: Avanza a la tercera fila del arreglo (8 elementos de desplazamiento) y luego avanza 3 elementos más dentro de esa fila para llegar al elemento deseado.
 
-Por ejemplo, nuestro arreglo `arr[3][4]` graficamente se veria asi:
+Por ejemplo, nuestro arreglo `arr[3][4]` gráficamente se vería así:
 
 [![20-05-2024-0002.jpg](https://i.postimg.cc/wjL1wWCV/20-05-2024-0002.jpg)](https://postimg.cc/nXVVz1cj)
 
-Si queremos acceder a cada uno de sus datos mediante la aritmética de punteros, tendriamos estas formulas:
+Si queremos acceder a cada uno de sus datos mediante la aritmética de punteros, tendríamos estas fórmulas:
 
 [![20-05-2024-0003.jpg](https://i.postimg.cc/BZ16N79V/20-05-2024-0003.jpg)](https://postimg.cc/grmm2D0V)
 
-Usando la misma logica, podemos modificar el contenido de una casilla en especifico usando su puntero correspondiente, por ejemplo, si queremos cambiar el valor de 6 por 13, tendriamos la siguiente linea de codigo:
+Usando la misma lógica, podemos modificar el contenido de una casilla en específico usando su puntero correspondiente. Por ejemplo, si queremos cambiar el valor de 6 por 13, tendríamos la siguiente línea de código:
 
 ```c
 *(p + 1 * 4 + 1) = 13;
 ```
 
-Y ahora tendriamos lo siguiente:
+Y ahora tendríamos lo siguiente:
 
 [![20-05-2024-0004.jpg](https://i.postimg.cc/G3J0cvkp/20-05-2024-0004.jpg)](https://postimg.cc/Cd1r7Bry)
 
 
-Tenemos el siguiente diagrama de flujo para poner en practica todo esto:
+Tenemos el siguiente diagrama de flujo para poner en práctica todo esto:
 
 [![20-05-2024-0005.jpg](https://i.postimg.cc/wvjwNrxs/20-05-2024-0005.jpg)](https://postimg.cc/SXHLFDMy)
 
-[Codigo --> aqui](usoPunterosConArreglosBidimensionales.c)
+[Código --> aquí](usoPunterosConArreglosBidimensionales.c)

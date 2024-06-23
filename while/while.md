@@ -1,4 +1,4 @@
-# Estructura algoritmica Repetitiva `while`
+# Estructura algorítmica repetitiva `while`
 
 La estructura algorítmica repetitiva `while` es una construcción que permite ejecutar un bloque de código mientras se cumpla una condición dada. A diferencia del bucle for, el bucle while se utiliza cuando no se conoce exactamente cuántas veces se repetirá el bloque de código, sino que se repetirá mientras una condición especificada sea verdadera.
 
@@ -22,4 +22,4 @@ PAG y SPA son variables de tipo real.
 
 [![15-05-2024-0002.jpg](https://i.postimg.cc/NjHwThNh/15-05-2024-0002.jpg)](https://postimg.cc/FYNq565G)
 
-[Codigo --> aqui](while.c)
+[Código --> aquí](while.c)

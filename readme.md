@@ -595,6 +595,9 @@ Finita porque se puede determinar el número de componentes y heterogénea porqu
 - [Estructuras de datos con Arreglos](./estructurasDeDatosArreglos/estructurasArreglos.md)
 - [Uniones](uniones/uniones.md)
 
+### Archivos de Datos
+- [Archivos de datos](./archivosDeTexto/archivosDeTexto.md)
+
 
 
 -----

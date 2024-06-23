@@ -8,7 +8,7 @@ Al proceso de recolectar esa información y actuar con base en ella, se le llama
 
 Por ejemplo, analice el siguiente diagrama.
 
-[![area-Triangulo.jpg](https://i.postimg.cc/TP3r2J3H/area-Triangulo.jpg)](https://postimg.cc/mPKc8MMQ)
+[![área-Triángulo.jpg](https://i.postimg.cc/TP3r2J3H/area-Triangulo.jpg)](https://postimg.cc/mPKc8MMQ)
 
 Este diagrama representa un programa para determinar el **área de un rectángulo**. En él, podemos apreciar que lo primero que hace nuestro programa es solicitar los datos `B` para la **base** y `H` para la **altura**.
 
@@ -16,4 +16,4 @@ Posteriormente, procesamos esos datos ingresados en una operación de multiplica
 
 Y finalmente, **lo único que se le muestra al usuario es el resultado final**, es decir, el valor de `A`.
 
-Puedes ver el codigo de este programa [--> aqui](procesamientoDeDatos.c)
+Puedes ver el código de este programa [--> aquí](procesamientoDeDatos.c)

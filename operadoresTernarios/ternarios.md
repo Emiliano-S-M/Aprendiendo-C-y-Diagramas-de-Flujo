@@ -13,4 +13,4 @@ El operador ternario se utiliza para realizar una toma de decisiones en una sola
 
 Veamos algunos ejemplos:
 
-[Codigo --> aqui](ternarios.c)
+[Código --> aquí](ternarios.c)

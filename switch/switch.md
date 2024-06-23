@@ -1,4 +1,4 @@
-# Condicional multiple `switch`
+# Condicional múltiple `switch`
 
 El condicional múltiple `switch` es otra **estructura de control** en lenguajes de programación como **C** que permite tomar decisiones basadas en el valor de una variable o expresión. **A diferencia** del condicional simple if, el condicional doble if-else, que **evalúan una condición booleana**, el ***switch evalúa una expresión*** y luego ejecuta código correspondiente a diferentes casos que coincidan con valores específicos de esa expresión.
 
@@ -35,6 +35,6 @@ Por ejemplo, el siguiente `switch` para mostrar un mensaje.
 [![Switch.jpg](https://i.postimg.cc/QdhZbGLv/Switch.jpg)](https://postimg.cc/7fsRHRZN)
 
 
-En este caso el switch lee una opcion, y en base a lo que se seleccione se muestra el respectivo caso seleccionado.
+En este caso, el switch lee una opción, y basándonos en lo que se seleccione, se muestra el respectivo caso seleccionado.
 
-Puedes ver el codigo [--> aqui](switch.c)
+Puedes ver el código [--> aquí](switch.c)

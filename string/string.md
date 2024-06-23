@@ -1,4 +1,4 @@
-# Uso de la libreria `string.h`
+# Uso de la librería `string.h`
 
 La biblioteca `string.h` en C es una colección de funciones y macros que proporcionan diversas utilidades para manipular cadenas de caracteres y bloques de memoria. Esta biblioteca es fundamental para trabajar con texto y datos binarios en el lenguaje de programación C.
 

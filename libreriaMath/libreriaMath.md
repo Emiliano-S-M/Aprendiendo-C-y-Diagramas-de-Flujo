@@ -1,4 +1,4 @@
-# La libreria Math.h
+# La librería Math.h
 
 La librería math en C es una biblioteca estándar que proporciona una amplia gama de funciones matemáticas para realizar operaciones como cálculos trigonométricos, exponenciales, logarítmicos, redondeo, etc. Esta librería es esencial para cualquier programador que necesite realizar operaciones matemáticas complejas o específicas en un programa en C.
 
@@ -40,4 +40,4 @@ Hagamos algunos ejercicios usando las funciones de la siguiente tabla:
 - [pow(x, y)](math12.c)
 - [sqrt(x)](math13.c)
 
-Estos son solo algunos ejemplos sencillos de cómo puedes usar algunas de las funciones mostradas en la tabla acerca de la librería **math**. Para que quede mas claro su funcionamiento, puedes intentar cambiar los valores de las variables, para que asi veas los multiples resultados devueltos.
+Estos son solo algunos ejemplos sencillos de cómo puedes usar algunas de las funciones mostradas en la tabla acerca de la librería **math**. Para que quede mas claro su funcionamiento, puedes intentar cambiar los valores de las variables, para que así veas los múltiples resultados devueltos.

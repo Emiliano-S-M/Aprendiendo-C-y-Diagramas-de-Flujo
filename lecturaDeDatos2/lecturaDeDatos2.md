@@ -4,13 +4,13 @@ En el ejercicio anterior de lectura de datos, cada vez que leíamos un dato, inm
 
 [![Lectura-e-inversion-de-datos.jpg](https://i.postimg.cc/fRHzszdh/Lectura-e-inversion-de-datos.jpg)](https://postimg.cc/nXDbYtTd)
 
-Puedes ver el codigo de este ejercicio [--> Aqui](lecturaDeDatos.c)
+Puedes ver el código de este ejercicio [--aquí](lecturaDeDatos.c)
 
-Como puedes notar en el codigo de este programa, puedes leer varios datos en una misma linea de codigo, y al imprimir los datos, tambien puedes hacerlo en la misma linea de codigo. 
+Como puedes notar en el código de este programa, puedes leer varios datos en una misma línea de código, y al imprimir los datos, también puedes hacerlo en la misma línea de código. 
 
-Aunado a eso, presta atencion como con una sola lectura de datos, puedes realizar varias impresiones, y que las variables no pierden su valor. esos valores se mantienen hasta que se sobrescriben con nuevos valores. Mientras no se les asigne un nuevo valor, las variables mantendrán su valor previo. Esto se debe a que la memoria asignada a esas variables permanece válida durante la ejecución del programa, y los valores almacenados en esas ubicaciones de memoria se mantienen hasta que se cambian explícitamente.
+Aunado a eso, presta atención como con una sola lectura de datos, puedes realizar varias impresiones, y que las variables no pierdan su valor. Esos valores se mantienen hasta que se sobrescriben con nuevos valores. Mientras no se les asigne un nuevo valor, las variables mantendrán su valor previo. Esto se debe a que la memoria asignada a esas variables permanece válida durante la ejecución del programa, y los valores almacenados en esas ubicaciones de memoria se mantienen hasta que se cambian explícitamente.
 
-De igual forma, otra parte importante a notar, es que al imprimir las valores de las variables lo podemos hacer en cualqier orden, mientras escribamos el nombre de la variable de la cual queramos obtener su valor, por ejemplo, para la siguiente parte
+De igual forma, otra parte importante a notar, es que al imprimir los valores de las variables, lo podemos hacer en cualquier orden, mientras escribamos el nombre de la variable de la cual queramos obtener su valor, por ejemplo, para la siguiente parte.
 
 ```c
     int A, B, C, D;
@@ -21,11 +21,11 @@ De igual forma, otra parte importante a notar, es que al imprimir las valores de
     printf("\nEn el mismo orden: %d %d %d %d", A, B, C, D);
 ```
 
-Nota como tenemos cuatro especificaciones de formato tanto en el `scanf`, como en el `printf`. Esto debido a que los valores a leer y mostrar son 4 correspondientemente. Y al momento de imprimir, lo hacemos escribiendo las variables separadas por comas, exactamente en el mismo orden en que las leimos, pero en las lineas de codigo: 
+Nota cómo tenemos cuatro especificaciones de formato tanto en el `scanf`, como en el `printf`. Esto se debe a que los valores a leer y mostrar son 4 correspondientemente. Y al momento de imprimir, lo hacemos escribiendo las variables separadas por comas, exactamente en el mismo orden en que las leímos, pero en las líneas de código: 
 
 ```c
     printf("\nEn orden inverso: %d %d %d %d", D, C, B, A);
     printf("\nAlternados: %d %d %d %d", B, D, A, C);
 ```
 
-El orden de estas variables cambia, pero estas no pierden su valor, si se les reasigna un valor, esto es una caracteristica de cualquier lenguaje de programacion llamado **"independencia de orden"** o **"independencia de posición"**. Esto significa que el orden en el que las variables son pasadas a una función de impresión (como printf en el caso de C) no afecta el resultado final. En otras palabras, podemos especificar las variables en cualquier orden dentro de la función de impresión y el resultado será el mismo.
+El orden de estas variables cambia, pero estas no pierden su valor, si se les reasigna un valor, esto es una característica de cualquier lenguaje de programación llamado **"independencia de orden"** o **"independencia de posición"**. Esto significa que el orden en el que las variables son pasadas a una función de impresión (como printf en el caso de C) no afecta el resultado final. En otras palabras, podemos especificar las variables en cualquier orden dentro de la función de impresión y el resultado será el mismo.

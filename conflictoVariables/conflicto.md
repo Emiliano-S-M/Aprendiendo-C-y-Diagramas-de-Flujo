@@ -1,4 +1,4 @@
-# Conflicto en los nombres de las Variables
+# Conflicto en los nombres de las Variables.
 
 Cuando una función tiene una variable local con el mismo nombre que una variable global, la variable local tiene prioridad dentro del alcance de esa función. Esto significa que cualquier referencia a esa variable dentro de la función se refiere a la variable local y no a la global.
 
@@ -14,4 +14,4 @@ Otro aspecto a tomar en cuenta, es que, así como las funciones, las variables g
 
 Este rectángulo únicamente está conectado a donde es llamado, en este caso en la impresión del mensaje.
 
-[Código --> aquí](conflicto.c)
+[Código --> aquí.](conflicto.c)

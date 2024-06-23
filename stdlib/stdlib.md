@@ -1,4 +1,4 @@
-# Uso de la libreria `stdlib.h`
+# Uso de la librería `stdlib.h`
 
 La librería `stdlib.h` en C proporciona funciones para la gestión de memoria dinámica, la conversión de números, la generación de números aleatorios, la búsqueda y ordenación de arrays, y la interacción con el entorno del programa, entre otras utilidades estándar del lenguaje.
 

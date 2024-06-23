@@ -4,7 +4,7 @@ Tipo de Dato `char`
 
 En C, el tipo de dato char se utiliza para almacenar un solo carácter. Los caracteres se representan en C utilizando el conjunto de caracteres ASCII (American Standard Code for Information Interchange) u otros conjuntos de caracteres como Unicode en implementaciones más modernas.
 
-**Declaración y Inicialización**
+**Declaración e Inicialización**
 Para declarar una variable de tipo char, simplemente se utiliza la palabra clave `char`. Un carácter puede ser inicializado utilizando comillas simples.
 
 ```c
@@ -46,14 +46,14 @@ Aunque los caracteres representan símbolos, en C también se pueden realizar op
   letra = letra + 1; // letra ahora es 'B'
   ```
 
-Estas son solo algunas de las funciones, pero podemos hacer muchas mas cosas, por ejemplo, analicemos el siguiente diagrama de flujo:
+Estas son solo algunas de las funciones, pero podemos hacer muchas más cosas, por ejemplo, analicemos el siguiente diagrama de flujo:
 
 
 [![21-05-2024-0001.jpg](https://i.postimg.cc/Hk2FZfJx/21-05-2024-0001.jpg)](https://postimg.cc/bZZ6dV9c)
 [![21-05-2024-0002.jpg](https://i.postimg.cc/9Md7jtyL/21-05-2024-0002.jpg)](https://postimg.cc/S2Ks69T9)
 
-Estas dos imagenes representan un mismo programa, dividido en varias funcion, las cuales ejecutan una tarea especifica cada una.
+Estas dos imágenes representan un mismo programa, dividido en varias funciones, las cuales ejecutan una tarea específica cada una.
 
 El diagrama que representa al programa principal, es el diagrama que pareciera echo a mano, este es el diagrama que representa el main.
 
-[Codigo --> aqui](caracteres.c)
+[Codigo --> aquí](caracteres.c)

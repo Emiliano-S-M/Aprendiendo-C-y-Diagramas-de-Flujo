@@ -18,7 +18,7 @@ Esta estructura es extremadamente útil cuando se necesita realizar una bifurcac
 
 El uso de la estructura selectiva doble permite escribir código más claro y legible al incorporar lógica condicional para manejar diferentes escenarios dentro de un programa.
 
-Por ejemplo, el diguiente diagrama de flujo que representa un if-else.
+Por ejemplo, el siguiente diagrama de flujo que representa un if-else.
 
 [![if-else.jpg](https://i.postimg.cc/Kjp3B2HS/if-else.jpg)](https://postimg.cc/CnDKpW0m)
 
@@ -26,4 +26,4 @@ En este diagrama, apreciamos que solicita un dato que será almacenado en la var
 Luego, en un `if-else` se condiciona el camino con que, si promedio es mayor o igual **>=** entonces es aprobado, en caso contrario, reprobado.
 Finalmente, muestra el mensaje correspondiente y finaliza el programa.
 
-Para ver el codigo de este ejemplo [--> clic aqui](if-else.c)
+Para ver el código de este ejemplo [--> clic aquí](if-else.c)
