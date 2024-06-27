@@ -54,5 +54,5 @@ Un ejemplo que abarca todo lo anterior esta presente en el siguiente diagrama de
 
 [![18-05-2024-0006.jpg](https://i.postimg.cc/QNYVpW84/18-05-2024-0006.jpg)](https://postimg.cc/JtJ180BZ)
 
-[Codigo --> aqui](apuntadoresArreglos.cc)
+[Codigo --> aqui](apuntadoresArreglos.c)
     
